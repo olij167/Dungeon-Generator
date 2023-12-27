@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c7b74bc179e4c84a9d1627d40bc765d, type: 3}
+  m_Name: StalkState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: e24d8e600c92ebc4591f1206c9ba7a1d, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: e8a248d9befccaa42b95a8274d1b4117, type: 2}
+    trueState: {fileID: 11400000}
+    falseState: {fileID: 11400000, guid: d017b89f3f80ef44b92840d2a2ce4aa8, type: 2}
+  sceneGizmoColor: {r: 0.49355718, g: 0, b: 0.8207547, a: 1}
